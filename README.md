@@ -1,6 +1,6 @@
 # Hackatons
 
-A REST API written in NodeJS with the Express framework that exposes endpoints to create an manage hackatons. This was used to host internal hackataons. Admins are eligable to create, start and delete hackatons. Participants can view active hackatons and submit their solutions. The hackatons are persisted in MongoDB and solutions are stored in Google Storage.
+A REST API written in NodeJS with the Express framework that exposes endpoints to create an manage hackatons. This was used to host internal hackatons. Admins are eligible to create, start and delete hackatons. Participants can view active hackatons and submit their solutions. The hackatons are persisted in MongoDB and solutions are stored in Google Storage.
 
 ## Usage
 
@@ -107,7 +107,7 @@ Returns the hackaton with the given ID, if its status is `active`.
 
 Returns all hackatons. Requires authentication.
 
-*Example Request*
+*Example Response*
 
 ```json
 {
